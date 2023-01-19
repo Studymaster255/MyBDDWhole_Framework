@@ -10,7 +10,9 @@ import io.cucumber.junit.CucumberOptions;
 		features= {"AllFeatures"},
 		glue= {"StepDefination"},
 		dryRun=false,
-		plugin={"pretty","html:CucumberReports/BydefaultSampleReport.html"}
+		monochrome=true,
+		plugin={"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+		"pretty","html:CucumberReports/BydefaultSampleReport.html"}
 
 		
 		)
