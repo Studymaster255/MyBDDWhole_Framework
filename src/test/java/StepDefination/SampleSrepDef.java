@@ -5,7 +5,7 @@ import io.cucumber.java.en.Then;
 import junit.framework.Assert;
 
 public class SampleSrepDef {
-	
+	/*
 	@Given("user create bdd framework")
 	public void user_create_bdd_framework() {
 	    
@@ -26,5 +26,5 @@ public class SampleSrepDef {
 	   System.out.println("Secound Assertion");
 		
 	}
-
+*/
 }
