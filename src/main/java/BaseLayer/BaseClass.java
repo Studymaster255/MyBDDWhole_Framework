@@ -40,7 +40,7 @@ public class BaseClass {
 			ChromeOptions options=new ChromeOptions();
 			options.addArguments("disable-infobars");
 			options.addArguments("incognito");
-			driver=new ChromeDriver(options);
+			driver=new ChromeDriver();
 			break;
 
 		case "firefox":
